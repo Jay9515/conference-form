@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conference form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <div class="container">
+    <h2>Conference Registration</h2>
+    <form>
+      <div class="form-group">
+        <label for="name" class="form-label">Name:</label>
+        <input type="text" id="name" class="form-input" required>
+      </div>
+      <div class="form-group">
+        <label for="email" class="form-label">Email:</label>
+        <input type="email" id="email" class="form-input" required>
+      </div>
+      <div class="form-group">
+        <label for="phone" class="form-label">Phone:</label>
+        <input type="tel" id="phone" class="form-input" required>
+      </div>
+      <div class="form-group">
+        <label for="affiliation" class="form-label">Affiliation:</label>
+        <input type="text" id="affiliation" class="form-input" required>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Dietary Preferences:</label>
+        <label for="vegetarian" class="form-checkbox-label">
+          <input type="checkbox" id="vegetarian" class="form-checkbox">
+          Vegetarian
+        </label>
+        <label for="vegan" class="form-checkbox-label">
+          <input type="checkbox" id="vegan" class="form-checkbox">
+          Vegan
+        </label>
+        <label for="gluten-free" class="form-checkbox-label">
+          <input type="checkbox" id="gluten-free" class="form-checkbox">
+          Gluten-free
+        </label>
+      </div>
+      <div class="form-group">
+        <label for="workshop" class="form-label">Preferred Workshop:</label>
+        <select id="workshop" class="form-input">
+          <option value="">Select Workshop</option>
+          <option value="workshop1">Workshop <br> </br>
+
+            
+        
+              
+        
+              <div class="form-group">
+                <label class="form-label">Registration Type:</label>
+                <div class="form-radio-group">
+                  <label for="general" class="form-radio-label">
+                    <input type="radio" id="general" name="registrationType" value="general">
+                    General Attendee
+                  </label>
+                  <label for="student" class="form-radio-label">
+                    <input type="radio" id="student" name="registrationType" value="student">
+                    Student
+                  </label>
+                  <label for="vip" class="form-radio-label">
+                    <input type="radio" id="vip" name="registrationType" value="vip">
+                    VIP
+                  </label>
+                </div>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="form-submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </body>
+        </html>

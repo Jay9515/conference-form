@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(140, 157, 161);
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #db92d4;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid white;
+}
+
+.form-checkbox-label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.form-submit {
+  padding: 10px 20px;
+  background-color: white;
+  color: #3a1a1a;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  background-color: #929692;
+}
+
+.form-radio-group {
+  margin-bottom: 20px;
+}
+
+.form-radio-label {
+  display: inline-block;
+  margin-right: 10px;
+}
